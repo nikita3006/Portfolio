@@ -36,7 +36,9 @@
 
 .active {
   color: #fff;
-  padding: 1rem;
+  width:40px;
+  height:40px;
+  margin-top: 0.70rem;
   border-radius: 100%;
 }
 
