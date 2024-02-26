@@ -12,7 +12,7 @@ const Header = () => {
           <button className='btn btn-sm'>Work with me</button>
         </div>   
       </div>
-      Header
+     
     </header>
   )
 };
