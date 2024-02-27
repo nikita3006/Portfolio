@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { BsArrowUpRight } from "react-icons/bs";
+import Company from "./Company";
 
 
 const experiences = [
@@ -81,9 +82,11 @@ const Experience = () => {
                       >
                         <BsArrowUpRight />
                       </a>
+
                       <a href="" className="text-gradient text-sm">
                         {link}
                       </a>
+                     
                     </div>
                   </div>
                 );

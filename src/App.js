@@ -6,6 +6,8 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Company from './components/Company';
+
 
 const App = () => {
   return (
@@ -17,7 +19,8 @@ const App = () => {
       <Experience />
       <Work />
       <Contact />
-      {/* <div className='h-[4000px]'></div> */}
+      < Company/>
+      <div className='h-[4000px]'></div>
     </div>
   );
 };

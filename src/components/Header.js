@@ -11,8 +11,7 @@ const Header = () => {
           </a>
           <button className='btn btn-sm'><a href="https://tan-jacklyn-48.tiiny.site/" download="" role="button">Download CV</a></button>   
         </div>   
-      </div>
-     
+      </div>  
     </header>
   )
 };
