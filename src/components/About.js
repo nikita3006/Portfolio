@@ -11,9 +11,9 @@ const About = () => {
   });
   return (
     <section className="section" id="about">
-      <div className="container mx-auto">
+      <div className="container mx-auto lg:p-0">
         <div className="flex flex-col gap-y-10 lg:flex-row
-         lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen ml-14">
+         lg:items-center lg:gap-x-20 lg:gap-y-0 ">
         
           <motion.div
             variants={fadeIn("right", 0.3)}
@@ -63,7 +63,7 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-sm">Contact Me</button>
+              <button className="btn btn-lg">Contact Me</button>
               <a href="" className="text-gradient btn-link">
                 My Portfolio
               </a>

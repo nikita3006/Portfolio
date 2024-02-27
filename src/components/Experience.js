@@ -29,7 +29,7 @@ const Experience = () => {
   return (
     <section className="section " id="services">
       <div className="container mx-auto ">
-        <div className="flex flex-col lg:flex-row mt-96 lg:m-14 lg:gap-x-8">
+        <div className="flex flex-col lg:flex-row">
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
@@ -43,7 +43,7 @@ const Experience = () => {
               Frontend Developer skilled in
               <br /> React JS, JavaScript, and web design tools
             </h3>
-            <button className="btn btn-sm">See my Work</button>
+            <button className="btn btn-lg">See my Work</button>
           </motion.div>
 
           <motion.div

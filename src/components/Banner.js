@@ -4,6 +4,7 @@ import Image from "../assets/avatar.png";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import { Link } from 'react-scroll'
 
 const Banner = () => {
   return (
@@ -12,7 +13,7 @@ const Banner = () => {
       id="home"
     >
       <div className="container mx-auto">
-        <div className="flex flex-col m-16 mt-4 gap-y-8 lg:flex-row lg:items-center lg-gap-x-12">
+        <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg-gap-x-12">
           <div className="flex-1 text-center font-secondary lg:text-left">
             <motion.h1
               variants={fadeIn("up", 0.3)}
@@ -57,8 +58,17 @@ const Banner = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
              className="flex max-w-max gap-x-6 items-center mb-6 mx-auto lg:mx-0">
-              <button className="btn btn-lg">Contact Me</button>
-              <a href="#" className="text-gradient btn-link">
+              <Link 
+                to='contact'
+                activeClass='active'
+                smooth={true}
+                spy={true}
+                offset={-200}
+                className='cursor-pointer'>
+                <button className="btn btn-lg">Contact Me</button>
+              </Link>
+              
+              <a href="" className="text-gradient btn-link">
                 My Portfolio
               </a>
             </motion.div>

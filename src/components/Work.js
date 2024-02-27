@@ -1,22 +1,22 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import  Img1 from '../assets/portfolio-img1.png'
-import  Img2 from '../assets/portfolio-img2.png'
-import  Img3 from '../assets/portfolio-img3.png'
+import Img1 from '../assets/Img1.jpg'
+import Img2 from '../assets/Img2.jpg'
+import Img3 from '../assets/Img3.jpg'
 
 
 const Work = () => {
   return(
     <section className='section' id='work'>
         <div className='container mx-auto'>
-          <div className='flex flex-col lg:flex-row gap-x-10 lg:m-36'>
+          <div className='flex flex-col lg:flex-row gap-x-10  '>
             <motion.div
                variants={fadeIn("right", 0.2)}
                initial="hidden"
                whileInView={"show"}
                viewport={{ once: false, amount: 0.3 }}
-               className='flex-1 flex flex-col gap-y-4 mb-10 lg:mb-0'>
+               className='flex-1 flex flex-col gap-y-8 mb-10 lg:mb-0'>
               {/* text */}
               <div>
                 <h2 className='h2 leading-tight text-accent'>
@@ -24,12 +24,9 @@ const Work = () => {
                   Work
                 </h2>
                 <p className='max-w-sm mb-6'>
-                  It has survived not only five centuries,
-                   but also the leap into electronic typesetting,
-                    remaining essentially unchanged. It was popularised
-                     in the 1960s with
+                I began my journey in this field two years ago and have since undergone extensive learning, yet I acknowledge there is still much more to explore. 
                 </p>
-                <button className='btn btn-sm'> 
+                <button className='btn btn-lg'> 
                   View all Projects
                 </button>
               </div>
@@ -58,7 +55,7 @@ const Work = () => {
                variants={fadeIn("left", 0.2)}
                initial="hidden"
                whileInView={"show"}
-               viewport={{ once: false, amount: 0.3 }} className='flex-1 flex flex-col gap-y-12'>
+               viewport={{ once: false, amount: 0.3 }} className='flex-1 flex flex-col gap-y-24'>
               {/* img */}
               <div className='group relative overflow-hidden border-2 
               border-white/50 rounded-xl '>
