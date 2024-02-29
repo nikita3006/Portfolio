@@ -7,9 +7,14 @@ import Experience from './components/Experience';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Company from './components/Company';
+import Projects from './components/Projects';
+
 
 
 const App = () => {
+ 
+
+
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
       <Header />
@@ -20,6 +25,8 @@ const App = () => {
       <Work />
       <Contact />
       < Company/>
+      <Projects/>
+    
       <div className='h-[4000px]'></div>
     </div>
   );

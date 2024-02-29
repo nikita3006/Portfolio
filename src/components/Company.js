@@ -1,15 +1,6 @@
 import React  from 'react';
-import Header from './Header';
-import { motion } from "framer-motion";
+import { motion} from "framer-motion";
 import { fadeIn } from "../variants";
-
-
-
-
-
-
-
-
 
 
 const data=[
@@ -45,9 +36,21 @@ const data=[
 ]
 const Company = () => {
   return (
-    <header className='py-8'>
-       <div className="container mx-auto ">
-        <Header/>
+    <header className='' id='company'>
+       <div className="container mx-auto shadow-2xl rounded-md ">
+       <div className='flex justify-center items-center'>
+           <motion.h2
+              variants={fadeIn("right", 0.4)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="text-[50px] font-bold leading-[0.8]
+                p-2
+                lg:text-[60px] lg:p-8 text-gradient"
+              >
+              My Work Experience          
+           </motion.h2>
+           </div>
        
        {
             data.map((items,id) =>{
@@ -63,7 +66,7 @@ const Company = () => {
                         viewport={{ once: false, amount: 0.7 }}
                         className="text-[50px] font-bold leading-[0.8]
                          p-2
-                         lg:text-[60px] lg:p-8"
+                         lg:text-[60px] lg:p-8 text-gradient"
                         >
                        {name}
                         </motion.h2>

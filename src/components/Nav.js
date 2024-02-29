@@ -1,6 +1,7 @@
 import React from 'react';
 import {BiHomeAlt, BiUser} from 'react-icons/bi'
 import {BsClipboardData, BsBriefcase, BsChatSquare} from 'react-icons/bs'
+import { PiCertificate } from "react-icons/pi";
 import { Link } from 'react-scroll'
 
 const Nav = () => {
@@ -25,6 +26,15 @@ const Nav = () => {
               className='cursor-pointer w-[70px] h-[60px] flex items-center justify-center'>
             <BiUser/>
           </Link>
+          <Link 
+              to='certificate'
+              activeClass='active'
+              smooth={true}
+              spy={true}
+              className='cursor-pointer w-[70px] h-[60px] flex items-center justify-center'>
+           <PiCertificate />
+          </Link>
+
           <Link
             to='services'
             activeClass='active'

@@ -2,7 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { BsArrowUpRight } from "react-icons/bs";
-import Company from "./Company";
+import {Link} from 'react-scroll'
+
 
 
 const experiences = [
@@ -44,7 +45,16 @@ const Experience = () => {
               Frontend Developer skilled in
               <br /> React JS, JavaScript, and web design tools
             </h3>
-            <button className="btn btn-lg">See my Work</button>
+             
+            <Link 
+                to='company'
+                activeClass='active'
+                smooth={true}
+                spy={true}
+                offset={-200}
+                className='cursor-pointer'>
+                <button className="btn btn-lg">See My Work</button>
+              </Link>
           </motion.div>
 
           <motion.div

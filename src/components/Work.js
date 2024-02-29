@@ -4,6 +4,7 @@ import { fadeIn } from "../variants";
 import Img1 from '../assets/Img1.jpg'
 import Img2 from '../assets/Img2.jpg'
 import Img3 from '../assets/Img3.jpg'
+import { Link } from 'react-scroll'
 
 
 const Work = () => {
@@ -26,9 +27,17 @@ const Work = () => {
                 <p className='max-w-sm mb-6'>
                 I began my journey in this field two years ago and have since undergone extensive learning, yet I acknowledge there is still much more to explore. 
                 </p>
-                <button className='btn btn-lg'> 
-                  View all Projects
-                </button>
+             
+                <Link 
+                to='projects'
+                activeClass='active'
+                smooth={true}
+                spy={true}
+                offset={-200}
+                className='cursor-pointer'>
+                <button className="btn btn-lg">View all projects</button>
+              </Link>
+               
               </div>
               {/* img */}
               <div className='group relative overflow-hidden border-2 
