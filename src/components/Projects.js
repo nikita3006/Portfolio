@@ -37,7 +37,7 @@ const Projects = () => {
         </div>
         {imagePaths.map((imageSrc, index) => (
           <motion.div key={index}
-            variants={fadeIn("up", 0.3)}
+            variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
