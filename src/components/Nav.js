@@ -36,7 +36,7 @@ const Nav = () => {
           </Link>
 
           <Link
-            to='services'
+            to='work'
             activeClass='active'
             smooth={true}
             spy={true}
@@ -44,7 +44,7 @@ const Nav = () => {
             <BsClipboardData/>
           </Link>
           <Link
-           to='work'
+           to='experience'
            activeClass='active'
            smooth={true}
            spy={true}

@@ -7,13 +7,11 @@ import about from '../assets/about.png'
 import { Link } from 'react-scroll'
 
 const About = () => {
-  const [ref, inView] = useInView({
-    threshold: 0.5,
-  });
+
   return (
     <section className="section" id="about">
-      <div className="container mx-auto lg:p-0">
-        <div className="flex flex-col gap-y-10 lg:flex-row
+      <div className="container mx-auto lg:p-0  ">
+        <div className="flex flex-col gap-y-5 lg:flex-row
          lg:items-center lg:gap-x-20 lg:gap-y-0 ">
         
           <motion.div
@@ -46,7 +44,7 @@ const About = () => {
             <div className="flex gap-x-6 lg:gap-x-16 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient p-4">
-                 <CountUp start={0} end={1.5} duration={3} /> 
+                 <CountUp start={0} end={1} duration={3} /> 
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of <br />

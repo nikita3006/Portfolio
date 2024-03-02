@@ -60,10 +60,10 @@ const Company = () => {
                      <div className=' lg:py-12 h-[420px] w-[420px]
                       flex-1 p-10 m-4'>
                      <motion.h2
-                        variants={fadeIn("right", 0.4)}
+                        variants={fadeIn("right", 0.2)}
                         initial="hidden"
                         whileInView={"show"}
-                        viewport={{ once: false, amount: 0.7 }}
+                        viewport={{ once: false, amount: 0.73}}
                         className="text-[50px] font-bold leading-[0.8]
                          p-2
                          lg:text-[60px] lg:p-8 text-gradient"
@@ -71,20 +71,20 @@ const Company = () => {
                        {name}
                         </motion.h2>
                         <motion.h3
-                        variants={fadeIn("right", 0.4)}
+                        variants={fadeIn("right", 0.2)}
                         initial="hidden"
                         whileInView={"show"}
-                        viewport={{ once: false, amount: 0.7 }}
+                        viewport={{ once: false, amount: 0.3 }}
                         className="text-[30px] font-bold
                         p-2 leading-[0.8] lg:text-[30px] lg:p-8"
                         >
                         {designation}
                         </motion.h3>
                         <motion.h5
-                        variants={fadeIn("right", 0.4)}
+                        variants={fadeIn("right", 0.2)}
                         initial="hidden"
                         whileInView={"show"}
-                        viewport={{ once: false, amount: 0.7 }}
+                        viewport={{ once: false, amount: 0.3 }}
                         className="text-[25px] font-bold 
                         p-2
                         leading-[0.8] lg:text-[20px] lg:p-8"
@@ -93,10 +93,10 @@ const Company = () => {
                         </motion.h5>
                      </div>
                      <motion.p
-                        variants={fadeIn("left", 0.4)}
+                        variants={fadeIn("left", 0.2)}
                         initial="hidden"
                         whileInView={"show"}
-                        viewport={{ once: false, amount: 0.7 }}
+                        viewport={{ once: false, amount: 0.3 }}
                         className="text-[25px] font-thin 
                          m-4 lg:leading-[1.8] leading-[2] lg:text-[20px] lg:p-8 text-white"
                         >

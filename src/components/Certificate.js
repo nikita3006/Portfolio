@@ -25,8 +25,8 @@ const Certificate = () => {
   };
 
   return (
-    <section className='py-8' id='certificates'>
-      <div className="container mx-auto shadow-2xl rounded-md">
+    <section className='section' id='certificate'>
+      <div className="container mx-auto shadow-2xl rounded-md ">
         <motion.div
          variants={fadeIn("up", 0.2)}
          initial="hidden"
@@ -70,7 +70,7 @@ const Certificate = () => {
 
 const Modal = ({ image, onClose }) => {
   return (
-    <div className="fixed top-0 left-0 lg:w-[800px] lg:h-[600px] lg:ml-[390px] 
+    <div className="fixed top-0 left-0 lg:w-[800px] lg:h-[600px] lg:ml-[232px] 
      bg-black bg-opacity-50 flex 
      justify-center items-center z-50">
       <div className="bg-white p-8 rounded-lg">

@@ -29,7 +29,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section className="section " id="services">
+    <section className="section " id="experience">
       <div className="container mx-auto ">
         <div className="flex flex-col lg:flex-row">
           <motion.div
@@ -42,8 +42,8 @@ const Experience = () => {
           >
             <h2 className="h2 text-accent mb-6">What I Did</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              Frontend Developer skilled in
-              <br /> React JS, JavaScript, and web design tools
+            I participated in a training
+            <br/> program and completed couple of internships...
             </h3>
              
             <Link 
@@ -53,7 +53,7 @@ const Experience = () => {
                 spy={true}
                 offset={-200}
                 className='cursor-pointer'>
-                <button className="btn btn-lg">See My Work</button>
+                <button className="btn btn-sm">See My Experience</button>
               </Link>
           </motion.div>
 
@@ -85,18 +85,24 @@ const Experience = () => {
                       </p>
                     </div>
                     <div className="flex flex-col flex-1 items-end">
-                      <a
-                        href=""
-                        className="btn w-9 h-9 mb-[22px]
-                      flex justify-center items-center"
-                      >
-                        <BsArrowUpRight />
-                      </a>
+                    <Link 
+                      to='company'
+                      activeClass='active'
+                      smooth={true}
+                      spy={true}
+                      className='cursor-pointer btn w-9 h-9 mb-[22px]
+                      flex justify-center items-center'>
+                      <BsArrowUpRight />
+                    </Link>
 
-                      <a href="" className="text-gradient text-sm">
-                        {link}
-                      </a>
-                     
+                    <Link 
+                      to='company'
+                      activeClass='active'
+                      smooth={true}
+                      spy={true}
+                      className="text-gradient text-sm cursor-pointer">
+                    {link}
+                    </Link>
                     </div>
                   </div>
                 );

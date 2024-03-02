@@ -22,13 +22,14 @@ const App = () => {
       <Banner />
       <Nav />
       <About />
+      <Certificate/>
+    
       <Experience />
       <Work />
       <Contact />
       < Company/>
       <Projects/>
-      <Certificate/>
-    
+     
       <div className='h-[4000px]'></div>
     </div>
   );

@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from "framer-motion";
-
 import { fadeIn } from "../variants";
 import imagePath1 from '../assets/Img1.jpg';
 import imagePath2 from '../assets/Img2.jpg';
@@ -11,11 +10,26 @@ import imagePath5 from '../assets/Img5.jpg';
 const imagePaths = [imagePath1, imagePath2, imagePath3, imagePath4, imagePath5];
 
 const projectData = [
-  { title: 'DelightDine', viewProject: 'View Project 1', link: 'https://delight-dine.vercel.app/' },
-  { title: 'Expense-Tracker', viewProject: 'View Project 2', link: 'https://expense-tracker-amber-two-44.vercel.app/' },
-  { title: 'ChatGptProject', viewProject: 'View Project 3', link: 'https://chat-gpt-project-pi.vercel.app/' },
-  { title: 'BlogProject', viewProject: 'View Project 4', link: 'https://blog-project-sigma-one.vercel.app/aboutUs.html' },
-  { title: 'Parallax Webpage', viewProject: 'View Project 5', link: 'Link 5' }
+  { title: 'DelightDine',
+   viewProject: 'View Project 1',
+   projectLink: 'https://delight-dine.vercel.app/',
+    viewProjectLink: 'https://github.com/nikita3006/DelightDine.git' },
+  { title: 'Expense-Tracker',
+   viewProject: 'View Project 2',
+   projectLink: 'https://expense-tracker-amber-two-44.vercel.app/',
+    viewProjectLink: 'https://github.com/nikita3006/EXPENSE-TRACKER.git' },
+  { title: 'ChatGptProject',
+   viewProject: 'View Project 3',
+   projectLink: 'https://chat-gpt-project-pi.vercel.app/',
+    viewProjectLink: 'https://github.com/nikita3006/chatGptProject.git' },
+  { title: 'BlogProject',
+   viewProject: 'View Project 4',
+   projectLink: 'https://blog-project-sigma-one.vercel.app/aboutUs.html',
+    viewProjectLink: 'https://github.com/nikita3006/BlogProject.git' },
+  { title: 'Parallax Webpage',
+   viewProject: 'View Project 5',
+    projectLink: 'Link 5',
+   viewProjectLink: 'https://github.com/nikita3006/ParallaxWebpage.git' }
 ];
 
 const Projects = () => {
@@ -53,13 +67,14 @@ const Projects = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 group-hover:bottom-28
              transition-all duration-500 z-50'>
-              <a href={projectData[index].link} className='text-gradient'>{projectData[index].viewProject}</a>
+              <a href={projectData[index].viewProjectLink} className='text-gradient'>{projectData[index].viewProject}</a>
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 group-hover:bottom-20 
             transition-all duration-700 z-50 '>
-              <span className='text-gradient text-3xl cursor-pointer'>{projectData[index].title}</span>
+              <a href={projectData[index].projectLink} className='text-gradient text-3xl cursor-pointer'>{projectData[index].title}</a>
             </div>
+
           </motion.div>
         ))}
       </div>
