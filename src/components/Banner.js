@@ -35,7 +35,7 @@ const Banner = () => {
             >
               <span className="text-white mr-4">I am a</span>
               <TypeAnimation
-                sequence={["Developer", 2000, "Designer", 2000]}
+                sequence={["Developer", 2000, "Designer", 2000, "Learner",2000]}
                 speed={50}
                 className="text-accent"
                 wrapper="span"
@@ -48,10 +48,8 @@ const Banner = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
              className="mb-8 max-w-lg mx-auto lg:mx-0">
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled
+              Hi, I'm a FrontEnd Developer  who loves to create visually appealing and interactive,
+               user-friendly webpages. <br/>I find peace and enjoyment in blending my artistic skills with technology
             </motion.p>
             <motion.div
               variants={fadeIn("down", 0.6)}
