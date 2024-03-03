@@ -30,7 +30,7 @@ const App = () => {
       < Company/>
       <Projects/>
      
-      <div className='h-[4000px]'></div>
+      {/* <div className='h-[4000px]'></div> */}
     </div>
   );
 };

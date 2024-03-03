@@ -16,13 +16,13 @@ const experiences = [
   {
     name: "Helpy Moto",
     description:
-      "Created a user info page for better interactivity and data handling.Built an ...",
+      "Created a user info page for better interactivity  ...",
     link: "Learn More",
   },
   {
     name: "ONE Simulation",
     description:
-      "Developed a responsive landing page for a company. Utilized HTML, CSS,...",
+      "Developed a responsive landing page for a company...",
     link: "Learn More",
   },
 ];
@@ -73,18 +73,18 @@ const Experience = () => {
                     className="border-b border-white/20
                    h-[186px] mb-[38px] p-0 flex text-[18px] lg:h-[146px]"
                   >
-                    <div>
+                    <div >
                       <h4
                         className="text-[30px] text-accent tracking-wider font-primary
-                    font-semibold mb-6"
+                    font-semibold mb-4 "
                       >
                         {name}
                       </h4>
-                      <p className="font-secondary leading-tight ">
+                      <p className="font-secondary leading-tight mb-10">
                         {description}
                       </p>
                     </div>
-                    <div className="flex flex-col flex-1 items-end gap-y-2">
+                    <div className="flex flex-col flex-1 items-end gap-y-4">
                     <Link 
                       to='company'
                       activeClass='active'

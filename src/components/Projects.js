@@ -48,8 +48,9 @@ const Projects = () => {
               >
               Projects          
            </motion.h2>
-        </div>
-        {imagePaths.map((imageSrc, index) => (
+        </div >
+       <div className='flex flex-col justify-center items-center'>
+       {imagePaths.map((imageSrc, index) => (
           <motion.div key={index}
             variants={fadeIn("down", 0.3)}
             initial="hidden"
@@ -57,7 +58,7 @@ const Projects = () => {
             viewport={{ once: false, amount: 0.7 }}
              className='group relative overflow-hidden border-2
            border-white/50 rounded-xl
-            lg:m-32 mb-14 lg:ml-48 lg:w-[800px] w-[280px] h-[150px] '>
+           mb-14 w-[280px] h-[150px] lg:w-[900px] lg:h-[400px] '>
           
             <div className='group-hover:bg-black/50 h-full lg:h-full
              absolute z-40 transition-all w-full duration-300'></div>
@@ -71,7 +72,7 @@ const Projects = () => {
             <div className='absolute -bottom-full left-12 group-hover:bottom-8
              transition-all duration-500 z-50'>
               <a href={projectData[index].viewProjectLink}
-               className='text-gradient text-[10px]'>{projectData[index].viewProject}</a>
+               className='text-gradient lg:text-[20px]'>{projectData[index].viewProject}</a>
             </div>
         
             <div className='absolute -bottom-full left-12 group-hover:bottom-1 
@@ -82,6 +83,7 @@ const Projects = () => {
 
           </motion.div>
         ))}
+       </div>
       </div>
     </section>
   );

@@ -28,7 +28,7 @@ const Contact = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
           className='flex-1 border rounded-2xl flex flex-col gap-y-4
-          pb-10 p-4 items-center w-[280px] ml-[-55px]'
+          pb-10 p-4 items-center w-[280px] '
         >
           <input
           className='bg-transparent border-b py-3 outline-none w-full
