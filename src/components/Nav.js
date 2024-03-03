@@ -8,7 +8,8 @@ const Nav = () => {
   return (
     <div className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
        <nav className='container mx-auto'>
-        <div className='w-full bg-black/20 h-[64px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between text-2xl text-white/50'>
+        <div className='w-full bg-black/20 h-[64px] backdrop-blur-2xl rounded-full
+         lg:max-w-[400px] max-w-[380px] lg:mx-auto px-5 flex justify-between text-2xl text-white/50'>
           <Link 
             to='home'
             activeClass='active'
