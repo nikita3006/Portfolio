@@ -9,19 +9,19 @@ import { Link } from 'react-scroll'
 const About = () => {
 
   return (
-    <section className="section" id="about">
-      <div className="container mx-auto lg:p-0  ">
+    <section className="section"  id="about">
+      <div className="container mx-auto ">
         <div className="flex flex-col gap-y-5 lg:flex-row
          lg:items-center lg:gap-x-20 lg:gap-y-0 ">
         
           <motion.div
-            variants={fadeIn("right", 0.3)}
+            variants={fadeIn("right", 0.4)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
-            className=" h-[360px]"
-          >
-           <img src={about} alt='' style={{ height: '360px'}}  />
+            viewport={{ once: false, amount: 0.8 }}
+            className="lg:flex mb-14 ml-[-45px]  w-[360px] lg:-max-w-[482px]">
+          
+           <img src={about} alt='' style={{ width:'320px', height: '360px'}}  />
           </motion.div>
          
           <motion.div

@@ -57,22 +57,27 @@ const Projects = () => {
             viewport={{ once: false, amount: 0.7 }}
              className='group relative overflow-hidden border-2
            border-white/50 rounded-xl
-            lg:m-32 m-10 lg:ml-48 lg:w-[800px] '>
-            {/* overlay */}
+            lg:m-32 mb-14 lg:ml-48 lg:w-[800px] w-[280px] h-[150px] '>
+          
             <div className='group-hover:bg-black/50 h-full lg:h-full
              absolute z-40 transition-all w-full duration-300'></div>
-            {/* img */}
-            <img src={imageSrc} alt={`Project ${index + 1}`} className='group-hover:scale-125
-             transition-all duration-500 ' />
-            {/* pretitle */}
-            <div className='absolute -bottom-full left-12 group-hover:bottom-28
+         
+            <img src={imageSrc} alt={`Project ${index + 1}`}
+             className='group-hover:scale-125
+             transition-all duration-500 '
+             style={{height:"100%"}}
+              />
+          
+            <div className='absolute -bottom-full left-12 group-hover:bottom-8
              transition-all duration-500 z-50'>
-              <a href={projectData[index].viewProjectLink} className='text-gradient'>{projectData[index].viewProject}</a>
+              <a href={projectData[index].viewProjectLink}
+               className='text-gradient text-[10px]'>{projectData[index].viewProject}</a>
             </div>
-            {/* title */}
-            <div className='absolute -bottom-full left-12 group-hover:bottom-20 
+        
+            <div className='absolute -bottom-full left-12 group-hover:bottom-1 
             transition-all duration-700 z-50 '>
-              <a href={projectData[index].projectLink} className='text-gradient text-3xl cursor-pointer'>{projectData[index].title}</a>
+              <a href={projectData[index].projectLink}
+               className='text-gradient lg:text-3xl cursor-pointer text-[20px]'>{projectData[index].title}</a>
             </div>
 
           </motion.div>

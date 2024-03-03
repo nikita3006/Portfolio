@@ -97,7 +97,7 @@ const Company = () => {
                         initial="hidden"
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.3 }}
-                        className="text-[25px] font-thin 
+                        className="text-[20px] font-thin 
                          m-4 lg:leading-[1.8] leading-[2] lg:text-[20px] lg:p-8 text-white"
                         >
                         {responsibilities}

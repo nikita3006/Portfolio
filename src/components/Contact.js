@@ -8,7 +8,7 @@ const Contact = () => {
     <section className='section' id='contact'>
      <div className='container mx-auto '>
       <div className='flex flex-col lg:flex-row'>
-        {/* text */}
+    
         <motion.div
           variants={fadeIn("right", 0.3)}
           initial="hidden"
@@ -21,14 +21,14 @@ const Contact = () => {
             <h2 className='text-[45px] lg:text-[70px] leading-none mb-12'>Let's work <br/> together!</h2>
           </div>
         </motion.div>
-        {/* form */}
+        
         <motion.form
           variants={fadeIn("left", 0.3)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
           className='flex-1 border rounded-2xl flex flex-col gap-y-4
-          pb-10 p-6 items-center'
+          pb-10 p-4 items-center w-[280px] ml-[-55px]'
         >
           <input
           className='bg-transparent border-b py-3 outline-none w-full

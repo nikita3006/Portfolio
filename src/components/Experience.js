@@ -10,19 +10,19 @@ const experiences = [
   {
     name: "Restdali",
     description:
-      "Worked on a React restaurant site, adding multilingual support,improving navigation, and using Zod for data validation",
+      "Worked on a React restaurant site, adding multilingual support,improving ...",
     link: "Learn More",
   },
   {
     name: "Helpy Moto",
     description:
-      "Created a user info page for better interactivity and data handling. Built an FAQs section to improve support.",
+      "Created a user info page for better interactivity and data handling.Built an ...",
     link: "Learn More",
   },
   {
     name: "ONE Simulation",
     description:
-      "Developed a responsive landing page for a company. Utilized HTML, CSS, and JavaScript to ensure cross-device compatibility and user-friendly design",
+      "Developed a responsive landing page for a company. Utilized HTML, CSS,...",
     link: "Learn More",
   },
 ];
@@ -62,7 +62,7 @@ const Experience = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1"
+            className="flex-1 gap-4"
           >
             <div>
               {experiences.map((experience, index) => {
@@ -71,20 +71,20 @@ const Experience = () => {
                   <div
                     key={index}
                     className="border-b border-white/20
-                 h-[146px] mb-[38px] flex"
+                   h-[186px] mb-[38px] p-0 flex text-[18px] lg:h-[146px]"
                   >
                     <div>
                       <h4
-                        className="text-[20px] tracking-wider font-primary
+                        className="text-[30px] text-accent tracking-wider font-primary
                     font-semibold mb-6"
                       >
                         {name}
                       </h4>
-                      <p className="font-secondary leading-tight">
+                      <p className="font-secondary leading-tight ">
                         {description}
                       </p>
                     </div>
-                    <div className="flex flex-col flex-1 items-end">
+                    <div className="flex flex-col flex-1 items-end gap-y-2">
                     <Link 
                       to='company'
                       activeClass='active'

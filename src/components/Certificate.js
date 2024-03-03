@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 const certificates = [
-  { title: 'React Coursera', image: coursera },
+  { title: 'React ', image: coursera },
   { title: 'Javscript', image: javascript },
   { title: 'HTML-CSS', image: htmlCss },
   { title: 'Chatgpt', image: chatgpt },
@@ -46,15 +46,19 @@ const Certificate = () => {
               initial="hidden"
               whileInView={"show"}
               className='group relative overflow-hidden border-2
-              border-white/50 rounded-xl lg:m-38  m-14 lg:h-96 lg:w-[800px]'
+              border-white/50 rounded-xl lg:m-38  m-4 lg:h-56 lg:w-[400px]'
               onClick={() => openModal(certificate.image)}
-            >      
+            >   
+             <div
+                className="group-hover:bg-black/50 w-full h-full absolute
+                z-40 transition-all duration-300 lg:h-[280px]"
+              ></div>   
               <img src={certificate.image} alt={certificate.title} 
                  title={`Certificate - ${certificate.title}`}/>
         
-              <div className='absolute -bottom-full left-12
-               group-hover:bottom-20 transition-all duration-700 z-50 '>
-                <span className='text-gradient text-3xl cursor-pointer'>{certificate.title}</span>
+              <div className='absolute -bottom-full lg:left-12
+               group-hover:bottom-6 transition-all duration-700 z-50 '>
+                <span className='text-gradient lg:text-3xl cursor-pointer text-[20px]'>{certificate.title}</span>
               </div>
               
             </motion.div>
