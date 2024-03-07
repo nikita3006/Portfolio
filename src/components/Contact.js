@@ -6,12 +6,18 @@ import emailjs from 'emailjs-com';
 const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
-    console.log("hi");
-    emailjs.sendForm('service_l34pqyp', 'template_c0cc9k2', e.target, 'kX_YyJCQot2-l0EjT')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
+    const formData = {
+      name: e.target.name.value,
+      email: e.target.email.value,
+      message: e.target.message.value,
+    };
+
+    emailjs.send('service_l34pqyp', 'template_c0cc9k2', formData, 'kX_YyJCQot2-l0EjT')
+      .then((response) => {
+        console.log('Email sent successfully:', response);
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
       });
   }
   
