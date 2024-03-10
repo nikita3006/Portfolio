@@ -63,7 +63,7 @@ const Contact = () => {
           >
 
             <input
-              className='bg-transparent border-b py-3 outline-none w-full
+              className='bg-transparent border-b py-3 outline-none w-full lg:text-2xl 
               placeholder:text-white focus:border-accent transition-all font-secondary'
               type='text'
               placeholder='Your Email Id'
@@ -74,7 +74,7 @@ const Contact = () => {
             />
 
             <input
-              className='bg-transparent border-b py-3 outline-none w-full
+              className='bg-transparent border-b py-3 outline-none w-full lg:text-2xl
               placeholder:text-white focus:border-accent transition-all font-secondary'
               type='text'
               placeholder='Your Name'
@@ -84,7 +84,7 @@ const Contact = () => {
               required
             />
             <textarea
-              className='bg-transparent border-b py-12 outline-none w-full
+              className='bg-transparent border-b py-12 outline-none w-full lg:text-2xl
               placeholder:text-white focus:border-accent transition-all resize-none mb-12 font-secondary'
               placeholder='Your Message'
               id='message'
@@ -92,7 +92,7 @@ const Contact = () => {
               onChange={handleChange}
               required
             ></textarea>
-            <button className='btn btn-lg' type="submit">Send Message</button>
+            <button className='btn btn-lg lg:text-2xl' type="submit">Send Message</button>
           </motion.form>
         </div>
       </div>

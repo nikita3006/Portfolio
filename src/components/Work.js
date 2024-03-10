@@ -45,7 +45,7 @@ const Work = () => {
                       whileInView={"show"}
                       viewport={{ once: false, amount: 0.3 }}
                      className="flex lg:flex-row  justify-around items-center flex-col">
-                        <p className="lg:w-[500px] mb-10 max-w-sm font-secondary">
+                        <p className="lg:w-[500px] mb-10 max-w-lg lg:text-2xl text-xl font-secondary">
                             I began my journey in this field two years ago and have since
                             undergone extensive learning, yet I acknowledge there is still
                             much more to explore.
@@ -59,7 +59,7 @@ const Work = () => {
                             offset={-200}
                             className="cursor-pointer"
                           >
-                            <button className="btn btn-lg">View all projects</button>
+                            <button className="btn btn-lg lg:text-2xl text-xl">View all projects</button>
                           </Link>
                     </motion.div>
                 </div>

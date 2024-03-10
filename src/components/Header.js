@@ -9,12 +9,14 @@ const Header = () => {
           <a href='#' className="text-gradient btn-link text-[15px]">
            <h1>NIKITA<br/><span className='text-[30px] text-white '>Negi</span></h1>
           </a>
-          <button className='btn btn-sm'>
+          <button className='btn btn-sm text-xl'>
             <a href="https://drive.google.com/file/d/1RF8-qOVi15pyS-tg0jd02wzdMdLB5PA1/view?usp=sharing"
              download=""
              target='_blank'
               role="button">
-              Download CV</a></button>   
+              Download CV
+              </a>
+          </button>   
         </div>   
       </div>  
     </header>

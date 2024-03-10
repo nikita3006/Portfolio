@@ -121,10 +121,10 @@ body {
     @apply font-primary text-xl leading-8 text-white;
   }
   .h2 {
-    @apply font-primary text-[40px] mb-6 tracking-[10%] uppercase text-purple-900 ;
+    @apply font-primary text-[45px] mb-6 tracking-[10%] uppercase text-purple-900 ;
   }
   .h3 {
-    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+    @apply font-primary font-semibold text-[20px] mb-6 leading-[46px];
   }
   .btn {
     @apply rounded-full font-primary text-white font-medium;

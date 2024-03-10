@@ -48,7 +48,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-             className="mb-8 max-w-lg mx-auto lg:mx-0">
+             className="mb-8 max-w-lg mx-auto lg:mx-0 text-2xl">
               Hi, I'm a FrontEnd Developer  who loves to create visually appealing and interactive,
                user-friendly webpages. <br/>I find peace and enjoyment in blending my artistic skills with
                 technology.
@@ -66,7 +66,7 @@ const Banner = () => {
                 spy={true}
                 offset={-200}
                 className='cursor-pointer'>
-                <button className="btn btn-lg">Contact Me</button>
+                <button className="btn btn-lg text-xl">Contact Me</button>
               </Link>
           
                   <a href="https://github.com/nikita3006">

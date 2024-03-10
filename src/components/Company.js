@@ -76,7 +76,7 @@ const Company = () => {
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.3 }}
                         className="text-[30px] font-bold
-                        p-2 leading-[0.8] lg:text-[30px] lg:p-8"
+                        p-2 leading-[0.8] lg:text-[30px] lg:p-8 "
                         >
                         {designation}
                         </motion.h3>
@@ -97,8 +97,9 @@ const Company = () => {
                         initial="hidden"
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.3 }}
-                        className="text-[20px] font-thin 
-                         m-4 lg:leading-[1.8] leading-[2] lg:text-[20px] lg:p-8 text-white"
+                        className=" font-light 
+                         m-4 lg:leading-[1.8] leading-[2] 
+                          lg:p-8 text-white lg:text-2xl"
                         >
                         {responsibilities}
                     </motion.p>

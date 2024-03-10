@@ -30,7 +30,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="lg:w-[640px] font-secondary flex-1"
+            className="lg:w-[640px] font-secondary flex-1 lg:text-2xl text-xl"
           >
             <h2 className="h2  text-gradient">About Me</h2>
             <p >
@@ -48,7 +48,7 @@ const About = () => {
                 <div className="text-[40px] font-tertiary text-accent p-4">
                  <CountUp start={0} end={1} duration={3} /> 
                 </div>
-                <div className="font-primary text-sm tracking-[2px]">
+                <div className="font-primary lg:text-2xl text-xl tracking-[2px]">
                   Years of <br />
                   Experience
                 </div>
@@ -57,7 +57,7 @@ const About = () => {
                 <div className="text-[40px] font-tertiary text-accent  p-4">
                 <CountUp start={0} end={8} duration={3} />+
                 </div>
-                <div className="font-primary text-sm tracking-[2px]">
+                <div className="font-primary lg:text-2xl text-xl tracking-[2px]">
                   Project <br />
                   Completed
                 </div>
@@ -71,7 +71,7 @@ const About = () => {
                 spy={true}
                 offset={-200}
                 className='cursor-pointer'>
-                <button className="btn btn-lg">Contact Me</button>
+                <button className="btn btn-lg lg:text-2xl text-xl">Contact Me</button>
               </Link>
               <a href="https://github.com/nikita3006">
                     <FaGithub />

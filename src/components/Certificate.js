@@ -66,7 +66,7 @@ const Certificate = () => {
         </div>
       </div>
       {selectedCertificate && (
-        <Modal image={selectedCertificate} onClose={closeModal} />
+        <Modal image={selectedCertificate} onClose={closeModal}/>
       )}
     </section>
   );
@@ -74,10 +74,10 @@ const Certificate = () => {
 
 const Modal = ({ image, onClose }) => {
   return (
-    <div className="fixed top-0 left-0 lg:w-[800px] lg:h-[600px] lg:ml-[232px] 
-     bg-black bg-opacity-50 flex 
-     justify-center items-center z-50">
-      <div className="bg-white p-8 rounded-lg">
+    <div className="fixed bottom-0 left-0 lg:w-[650px] lg:h-[600px] lg:ml-[500px] 
+     bg-opacity-50 flex 
+     justify-center items-center z-50 w-[200px] h-[50px] ml-[60px] lg:top-0 lg:mt-[300px]">
+      <div className="bg-white p-8 rounded-lg mb-[525px]">
         <img src={image} alt="Certificate" />
         <button className="bg-gray-500 text-white px-4 py-2 rounded mt-4" onClick={onClose}>Close</button>
       </div>

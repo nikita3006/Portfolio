@@ -41,7 +41,7 @@ const Experience = () => {
           lg:bg-mix-blend-lighten bg-no-repeat bg-contain mb-12 lg:mb-0 "
           >
             <h2 className="h2  text-gradient mb-6">What I Did</h2>
-            <h3 className="h3 max-w-[455px] mb-16">
+            <h3 className="h3 max-w-[455px] mb-16 text-2xl">
             I participated in a training
             <br/> program and completed couple of internships...
             </h3>
@@ -53,7 +53,7 @@ const Experience = () => {
                 spy={true}
                 offset={-200}
                 className='cursor-pointer'>
-                <button className="btn btn-sm">See My Experience</button>
+                <button className="btn btn-lg lg:text-2xl text-xl">See My Experience</button>
               </Link>
           </motion.div>
 
@@ -80,7 +80,7 @@ const Experience = () => {
                       >
                         {name}
                       </h4>
-                      <p className="font-secondary leading-tight mb-10">
+                      <p className="font-secondary leading-tight mb-10 lg:text-2xl text-lg">
                         {description}
                       </p>
                     </div>
