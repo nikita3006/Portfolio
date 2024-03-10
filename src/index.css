@@ -110,8 +110,8 @@ body {
 
 .active {
   color: #fff;
-  width:40px;
-  height:40px;
+  width:50px;
+  height:38px;
   margin-top: 0.70rem;
   border-radius: 100%;
 }

@@ -1,7 +1,8 @@
 import React from 'react';
 import {BiHomeAlt, BiUser} from 'react-icons/bi'
-import {BsClipboardData, BsBriefcase, BsChatSquare} from 'react-icons/bs'
+import {BsClipboardData, BsChatSquareDots } from 'react-icons/bs'
 import { PiCertificate } from "react-icons/pi";
+import { IoBriefcaseOutline } from "react-icons/io5";
 import { Link } from 'react-scroll'
 
 const Nav = () => {
@@ -9,7 +10,7 @@ const Nav = () => {
     <div className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
        <nav className='container mx-auto'>
         <div className='w-full bg-black/20 h-[64px] backdrop-blur-2xl rounded-full
-         lg:max-w-[400px] max-w-[380px] lg:mx-auto px-5 flex justify-between text-2xl text-white/50'>
+         lg:max-w-[400px] max-w-[300px] lg:mx-auto px-5 flex justify-between text-2xl text-white/50'>
           <Link 
             to='home'
             activeClass='active'
@@ -50,7 +51,7 @@ const Nav = () => {
            smooth={true}
            spy={true}
            className='cursor-pointer w-[70px] h-[60px] flex items-center justify-center'>
-            <BsBriefcase/>
+          <IoBriefcaseOutline />
           </Link> 
           <Link
            to='contact'
@@ -58,7 +59,7 @@ const Nav = () => {
            smooth={true}
            spy={true}
            className='cursor-pointer w-[70px] h-[60px] flex items-center justify-center'>
-            <BsChatSquare/>
+            <BsChatSquareDots  />
           </Link> 
         </div>
       </nav>

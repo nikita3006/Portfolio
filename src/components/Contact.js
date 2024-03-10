@@ -58,7 +58,7 @@ const Contact = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 border rounded-2xl flex flex-col gap-y-4
-            pb-10 p-4 items-center w-[280px]'
+            pb-10 p-4 items-center '
             onSubmit={sendEmail}
           >
 
