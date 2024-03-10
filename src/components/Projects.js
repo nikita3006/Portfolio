@@ -28,7 +28,7 @@ const projectData = [
     viewProjectLink: 'https://github.com/nikita3006/BlogProject.git' },
   { title: 'Parallax Webpage',
    viewProject: 'View Project 5',
-    projectLink: 'Link 5',
+    projectLink: 'https://parallax-webpage-sable.vercel.app/',
    viewProjectLink: 'https://github.com/nikita3006/ParallaxWebpage.git' }
 ];
 

@@ -40,7 +40,7 @@ const Experience = () => {
             className="flex-1 lg:bg-services lg:bg-bottom
           lg:bg-mix-blend-lighten bg-no-repeat bg-contain mb-12 lg:mb-0 "
           >
-            <h2 className="h2 text-accent mb-6">What I Did</h2>
+            <h2 className="h2  text-gradient mb-6">What I Did</h2>
             <h3 className="h3 max-w-[455px] mb-16">
             I participated in a training
             <br/> program and completed couple of internships...
@@ -75,7 +75,7 @@ const Experience = () => {
                   >
                     <div >
                       <h4
-                        className="text-[30px] text-accent tracking-wider font-primary
+                        className="text-[30px]  text-gradient tracking-wider font-primary
                     font-semibold mb-4 "
                       >
                         {name}

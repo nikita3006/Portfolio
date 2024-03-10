@@ -10,7 +10,10 @@ const Header = () => {
            <h1>NIKITA<br/><span className='text-[30px] text-white '>Negi</span></h1>
           </a>
           <button className='btn btn-sm'>
-            <a href="https://drive.google.com/file/d/1RF8-qOVi15pyS-tg0jd02wzdMdLB5PA1/view?usp=sharing" download="" role="button">
+            <a href="https://drive.google.com/file/d/1RF8-qOVi15pyS-tg0jd02wzdMdLB5PA1/view?usp=sharing"
+             download=""
+             target='_blank'
+              role="button">
               Download CV</a></button>   
         </div>   
       </div>  

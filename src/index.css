@@ -7,8 +7,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: auto;
   background: linear-gradient(315deg, rgba(101,0,94,1) 3%,
-   rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgb(201, 198, 40) 98%);
-  animation: gradient 15s ease infinite;
+   rgb(12, 13, 14) 38%, rgb(118, 95, 125) 68%, rgb(150, 88, 175) 98%);
+  animation: gradient 40s ease infinite; /* Increased duration to 30s */
   background-size: 400% 400%;
   background-attachment: fixed;
 }
@@ -31,7 +31,7 @@ body {
   position: fixed;
   width: 200%;
   height: 12em;
-  animation: wave 10s -3s linear infinite;
+  animation: wave 30s -3s linear infinite; /* Increased duration to 20s */
   transform: translate3d(0, 0, 0);
   opacity: 0.8;
   bottom: 0;
@@ -41,13 +41,13 @@ body {
 
 .wave:nth-of-type(2) {
   bottom: -1.25em;
-  animation: wave 18s linear reverse infinite;
+  animation: wave 46s linear reverse infinite; /* Increased duration to 36s */
   opacity: 0.8;
 }
 
 .wave:nth-of-type(3) {
   bottom: -2.5em;
-  animation: wave 20s -1s reverse infinite;
+  animation: wave 50s -1s reverse infinite; /* Increased duration to 40s */
   opacity: 0.9;
 }
 
@@ -72,12 +72,13 @@ body {
       transform: translateX(1);
   }
 }
+
 .btn {
   background: linear-gradient(
     92.23deg,
-    #ff56f6 21.43%,
+    #ca81c6 21.43%,
     #b936ee 50.63%,
-    #3bace2 100%,
+    #0b161b 100%,
     #406aff 117.04%
   );
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
@@ -89,10 +90,10 @@ body {
 .btn:hover {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    #ca81c6 21.43%,
+    #b936ee 50.63%,
+    #0b161b 100%,
+    #406aff 117.04%
   );
 }
 
@@ -100,10 +101,10 @@ body {
 .active {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    #ca81c6 21.43%,
+    #b936ee 50.63%,
+    #0b161b 100%,
+    #406aff 117.04%
   );
 }
 
@@ -120,7 +121,7 @@ body {
     @apply font-primary text-xl leading-8 text-white;
   }
   .h2 {
-    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+    @apply font-primary text-[40px] mb-6 tracking-[10%] uppercase text-purple-900 ;
   }
   .h3 {
     @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
@@ -138,7 +139,7 @@ body {
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#743063] to-[#FF56F6] font-bold font-primary hover:from-[#521b4f] hover:to-[#8d22b7];
   }
   .section {
     @apply py-8 m-16  lg:p-20 lg:h-fit flex items-center ;

@@ -35,19 +35,20 @@ const Contact = () => {
   return (
     <section className='section' id='contact'>
       <div className='container mx-auto '>
-        <div className='flex flex-col lg:flex-row'>
+        <div className='flex flex-col lg:flex-row '>
 
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 flex justify-start items-center'
+            className='flex-1 flex justify-start items-center '
           >
             <div>
-              <h4 className='text-xl uppercase text-accent font-medium mb-0
+              <h4 className='text-3xl uppercase  text-gradient font-medium mb-0
               tracking-wide'>Get in Touch</h4>
-              <h2 className='text-[45px] lg:text-[70px] leading-none mb-12'>Let's work <br /> together!</h2>
+              <h2 className='text-[45px] lg:text-[70px] leading-none mb-12'>
+                Let's work <br /> together!</h2>
             </div>
           </motion.div>
 
@@ -63,7 +64,7 @@ const Contact = () => {
 
             <input
               className='bg-transparent border-b py-3 outline-none w-full
-              placeholder:text-white focus:border-accent transition-all'
+              placeholder:text-white focus:border-accent transition-all font-secondary'
               type='text'
               placeholder='Your Email Id'
               id='email'
@@ -74,7 +75,7 @@ const Contact = () => {
 
             <input
               className='bg-transparent border-b py-3 outline-none w-full
-              placeholder:text-white focus:border-accent transition-all'
+              placeholder:text-white focus:border-accent transition-all font-secondary'
               type='text'
               placeholder='Your Name'
               id='name'
@@ -84,7 +85,7 @@ const Contact = () => {
             />
             <textarea
               className='bg-transparent border-b py-12 outline-none w-full
-              placeholder:text-white focus:border-accent transition-all resize-none mb-12'
+              placeholder:text-white focus:border-accent transition-all resize-none mb-12 font-secondary'
               placeholder='Your Message'
               id='message'
               value={formData.message}
@@ -99,7 +100,7 @@ const Contact = () => {
      
       {showConfirmationModal && (
         <div className="modal fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50">
-          <div className="bg-white p-8 rounded-lg text-accent">
+          <div className="bg-white p-8 rounded-lg  text-gradient">
             <p className="text-center text-xl font-bold mb-4">Your email was successfully sent. We'll get back to you!</p>
             <button onClick={closeModal} className="bg-accent text-white py-2 px-4 rounded-md">Close</button>
           </div>

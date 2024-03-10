@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import about from '../assets/about.png'
 import { Link } from 'react-scroll'
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const About = () => {
 
@@ -29,21 +30,22 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1"
+            className="w-[640px] font-secondary"
           >
-            <h2 className="h2 text-accent">About Me</h2>
-            <h3 className="h3 mb-4">
-             I'm a FrontEnd Developer with 1.5 years of Experience
-            </h3>
-            <p>
-            I'm a keen Frontend Developer skilled in React JS, JavaScript, TypeScript, HTML,
-              CSS, Bootstrap, Tailwind Css, FireBase, Git, and GitHub. Great team player with good communication.
-              Quick learner, always curious about the latest web tech.
+            <h2 className="h2  text-gradient">About Me</h2>
+            <p className="">
+            My journey began with a simple <strong>'Hello, World!'</strong> webpage, igniting a love for crafting seamless user experiences.<br/>Specializing in <strong style={{ color: '#AAFF00' }}>React.js</strong>, <strong style={{ color: '#AAFF00' }}>JavaScript</strong>, and <strong style={{ color: '#AAFF00' }}>Jira</strong>, I thrive on building dynamic interfaces that engage users. With expertise in <strong style={{ color: '#AAFF00' }}>Typescript</strong> and <strong style={{ color: '#AAFF00' }}>API Integration</strong>, I leverage modern web technologies to bring concepts to life.
+            </p>
+            <p className="">
+              I'm proficient in utilize tools like <strong style={{ color: '#AAFF00' }}>Context API</strong> and <strong style={{ color: '#AAFF00' }}>Firebase</strong> to create scalable applications. Whether it's designing responsive layouts with <strong style={{ color: '#AAFF00' }}>Bootstrap</strong> and <strong style={{ color: '#AAFF00' }}>HTML</strong>, or embracing <strong style={{ color: '#AAFF00' }}>Agile Methodologies</strong> and managing projects with <strong style={{ color: '#AAFF00' }}>Postman</strong>, I'm dedicated to delivering exceptional results.
+            </p>
+            <p className="">
+              My toolkit also includes version control with <strong style={{ color: '#AAFF00' }}>Git</strong> and <strong style={{ color: '#AAFF00' }}>Github</strong>, along with expertise in styling with <strong style={{ color: '#AAFF00' }}>Bootstrap</strong> and <strong style={{ color: '#AAFF00' }}>Tailwind CSS</strong>. Let's collaborate and create remarkable digital experiences together!
             </p>
           
             <div className="flex gap-x-6 lg:gap-x-16 mb-12">
               <div>
-                <div className="text-[40px] font-tertiary text-gradient p-4">
+                <div className="text-[40px] font-tertiary text-accent p-4">
                  <CountUp start={0} end={1} duration={3} /> 
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -52,7 +54,7 @@ const About = () => {
                 </div>
               </div>
               <div>
-                <div className="text-[40px] font-tertiary text-gradient  p-4">
+                <div className="text-[40px] font-tertiary text-accent  p-4">
                 <CountUp start={0} end={8} duration={3} />+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -71,8 +73,11 @@ const About = () => {
                 className='cursor-pointer'>
                 <button className="btn btn-lg">Contact Me</button>
               </Link>
-              <a href="" className="text-gradient btn-link">
-                My Portfolio
+              <a href="https://github.com/nikita3006">
+                    <FaGithub />
+              </a>
+              <a href="https://www.linkedin.com/in/nikitanegi3011/">
+                <FaLinkedinIn />
               </a>
             </div>
           </motion.div>

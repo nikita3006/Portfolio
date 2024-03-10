@@ -36,9 +36,9 @@ const Banner = () => {
             >
               <span className="text-white mr-4">I am a</span>
               <TypeAnimation
-                sequence={["Developer", 2000, "Designer", 2000, "Learner",2000]}
+                sequence={["Developer", 2000, "Designer", 2000]}
                 speed={50}
-                className="text-accent"
+                className="text-purple-500"
                 wrapper="span"
                 repeat={Infinity}
               />
@@ -50,7 +50,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
              className="mb-8 max-w-lg mx-auto lg:mx-0">
               Hi, I'm a FrontEnd Developer  who loves to create visually appealing and interactive,
-               user-friendly webpages. <br/>I find peace and enjoyment in blending my artistic skills with technology
+               user-friendly webpages. <br/>I find peace and enjoyment in blending my artistic skills with
+                technology.
             </motion.p>
             <motion.div
               variants={fadeIn("down", 0.6)}
@@ -67,25 +68,17 @@ const Banner = () => {
                 className='cursor-pointer'>
                 <button className="btn btn-lg">Contact Me</button>
               </Link>
-              
-              <a href="" className="text-gradient btn-link">
-                My Portfolio
-              </a>
-            </motion.div>
-         
-            <motion.div
-                variants={fadeIn("down", 0.4)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: false, amount: 0.7 }}
-                className="flex text-[20px] gap-x-12 max-w-max mx-auto lg:mx-0">
+          
                   <a href="https://github.com/nikita3006">
                     <FaGithub />
                   </a>
                   <a href="https://www.linkedin.com/in/nikitanegi3011/">
                     <FaLinkedinIn />
                   </a>
+      
             </motion.div>
+         
+           
           </div>
        
           <motion.div
@@ -94,7 +87,7 @@ const Banner = () => {
            whileInView={"show"}
            viewport={{ once: false, amount: 0.8 }}
            className="hidden lg:flex mb-14 mr-5 flex-1 max-w-[320px] lg:-max-w-[482px]">
-            <img src={Image} alt="" />
+            <img src={Image}  />
           </motion.div>
         </div>
       </div>

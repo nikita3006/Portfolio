@@ -56,7 +56,7 @@ const Company = () => {
             data.map((items,id) =>{
                 const {name, designation,duration,responsibilities} =items
               return(
-                <div className=' text-accent flex lg:p-8 lg:m-10 lg:gap-x-10 flex-col lg:flex-row' key={id}>
+                <div className='  text-gradient flex lg:p-8 lg:m-10 lg:gap-x-10 flex-col lg:flex-row' key={id}>
                      <div className=' lg:py-12 h-[420px] w-[420px]
                       flex-1 p-10 m-4'>
                      <motion.h2

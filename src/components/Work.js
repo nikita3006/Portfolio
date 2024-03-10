@@ -34,7 +34,7 @@ const Work = () => {
                         viewport={{ once: false, amount: 0.3 }}
                         className=" flex justify-center items-center"
                       >
-                      <h2 className="h2 leading-tight text-accent">
+                      <h2 className="h2 leading-tight  text-gradient">
                         My Latest 
                         Work
                       </h2>
@@ -45,7 +45,7 @@ const Work = () => {
                       whileInView={"show"}
                       viewport={{ once: false, amount: 0.3 }}
                      className="flex lg:flex-row  justify-around items-center flex-col">
-                        <p className="lg:w-[500px] mb-10 max-w-sm ">
+                        <p className="lg:w-[500px] mb-10 max-w-sm font-secondary">
                             I began my journey in this field two years ago and have since
                             undergone extensive learning, yet I acknowledge there is still
                             much more to explore.

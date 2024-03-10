@@ -10,12 +10,8 @@ import Company from './components/Company';
 import Projects from './components/Projects';
 import Certificate from './components/Certificate';
 
-
-
 const App = () => {
  
-
-
   return (
     <div className=' bg-no-repeat bg-cover '>
       <Header />
