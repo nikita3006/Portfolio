@@ -30,10 +30,10 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="w-[640px] font-secondary"
+            className="lg:w-[640px] font-secondary flex-1"
           >
             <h2 className="h2  text-gradient">About Me</h2>
-            <p className="">
+            <p >
             My journey began with a simple <strong>'Hello, World!'</strong> webpage, igniting a love for crafting seamless user experiences.<br/>Specializing in <strong style={{ color: '#AAFF00' }}>React.js</strong>, <strong style={{ color: '#AAFF00' }}>JavaScript</strong>, and <strong style={{ color: '#AAFF00' }}>Jira</strong>, I thrive on building dynamic interfaces that engage users. With expertise in <strong style={{ color: '#AAFF00' }}>Typescript</strong> and <strong style={{ color: '#AAFF00' }}>API Integration</strong>, I leverage modern web technologies to bring concepts to life.
             </p>
             <p className="">
