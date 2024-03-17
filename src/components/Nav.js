@@ -36,15 +36,6 @@ const Nav = () => {
               className='cursor-pointer w-[70px] h-[60px] flex items-center justify-center'>
            <PiCertificate />
           </Link>
-
-          <Link
-            to='work'
-            activeClass='active'
-            smooth={true}
-            spy={true}
-            className='cursor-pointer w-[70px] h-[60px] flex items-center justify-center'>
-            <BsClipboardData/>
-          </Link>
           <Link
            to='experience'
            activeClass='active'
@@ -53,6 +44,15 @@ const Nav = () => {
            className='cursor-pointer w-[70px] h-[60px] flex items-center justify-center'>
           <IoBriefcaseOutline />
           </Link> 
+          <Link
+            to='work'
+            activeClass='active'
+            smooth={true}
+            spy={true}
+            className='cursor-pointer w-[70px] h-[60px] flex items-center justify-center'>
+            <BsClipboardData/>
+          </Link>
+         
           <Link
            to='contact'
            activeClass='active'
