@@ -13,7 +13,7 @@ import Certificate from './components/Certificate';
 const App = () => {
  
   return (
-    <div className=' bg-no-repeat bg-cover '>
+    <div className='overflow-hidden '>
       <Header />
       <Banner />
       <Nav />

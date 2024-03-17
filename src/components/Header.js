@@ -7,7 +7,7 @@ const Header = () => {
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           <a href='#' className="text-gradient btn-link text-[15px]">
-           <h1>NIKITA<br/><span className='text-[30px] text-white '>Negi</span></h1>
+           <h1 className='text-cyan-400'>NIKITA<br/><span className='text-[30px] text-cyan-500 '>Negi</span></h1>
           </a>
           <button className='btn btn-sm text-xl'>
             <a href="https://drive.google.com/file/d/1RF8-qOVi15pyS-tg0jd02wzdMdLB5PA1/view?usp=sharing"

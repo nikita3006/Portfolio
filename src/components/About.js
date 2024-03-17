@@ -32,14 +32,14 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="lg:w-[640px] font-secondary flex-1 lg:text-2xl text-xl"
           >
-            <h2 className="h2  text-gradient">About Me</h2>
-            <p >
+            <h2 className="h2  ">About Me</h2>
+            <p className="text-white" >
             My journey began with a simple <strong>'Hello, World!'</strong> webpage, igniting a love for crafting seamless user experiences.<br/>Specializing in <strong style={{ color: '#AAFF00' }}>React.js</strong>, <strong style={{ color: '#AAFF00' }}>JavaScript</strong>, and <strong style={{ color: '#AAFF00' }}>Jira</strong>, I thrive on building dynamic interfaces that engage users. With expertise in <strong style={{ color: '#AAFF00' }}>Typescript</strong> and <strong style={{ color: '#AAFF00' }}>API Integration</strong>, I leverage modern web technologies to bring concepts to life.
             </p>
-            <p className="">
+            <p className="text-white">
               I'm proficient in utilize tools like <strong style={{ color: '#AAFF00' }}>Context API</strong> and <strong style={{ color: '#AAFF00' }}>Firebase</strong> to create scalable applications. Whether it's designing responsive layouts with <strong style={{ color: '#AAFF00' }}>Bootstrap</strong> and <strong style={{ color: '#AAFF00' }}>HTML</strong>, or embracing <strong style={{ color: '#AAFF00' }}>Agile Methodologies</strong> and managing projects with <strong style={{ color: '#AAFF00' }}>Postman</strong>, I'm dedicated to delivering exceptional results.
             </p>
-            <p className="">
+            <p className="text-white">
               My toolkit also includes version control with <strong style={{ color: '#AAFF00' }}>Git</strong> and <strong style={{ color: '#AAFF00' }}>Github</strong>, along with expertise in styling with <strong style={{ color: '#AAFF00' }}>Bootstrap</strong> and <strong style={{ color: '#AAFF00' }}>Tailwind CSS</strong>. Let's collaborate and create remarkable digital experiences together!
             </p>
           

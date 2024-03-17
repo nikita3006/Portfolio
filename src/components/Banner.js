@@ -22,7 +22,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-[50px] font-bold leading-[0.8] lg:text-[60px]"
+              className="text-[50px] font-bold leading-[0.8] lg:text-[60px] text-blue-300"
             >
               NIKITA <span>NEGI</span>
             </motion.h1>
@@ -34,11 +34,11 @@ const Banner = () => {
               className="mb-6 text-[36px] lg:text-[40px] font-secondary
                 font-semibold uppercase lg:leading-[2]"
             >
-              <span className="text-white mr-4">I am a</span>
+              <span className="text-blue-300 mr-4">I am a</span>
               <TypeAnimation
                 sequence={["Developer", 2000, "Designer", 2000]}
                 speed={50}
-                className="text-purple-500"
+                className="text-blue-400"
                 wrapper="span"
                 repeat={Infinity}
               />

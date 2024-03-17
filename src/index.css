@@ -6,9 +6,11 @@ body {
   margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: auto;
-  background: linear-gradient(315deg, rgba(101,0,94,1) 3%,
-   rgb(12, 13, 14) 38%, rgb(118, 95, 125) 68%, rgb(150, 88, 175) 98%);
-  animation: gradient 40s ease infinite; /* Increased duration to 30s */
+  background:linear-gradient(
+     90deg, rgba(24,0,36,1) 0%,
+   rgba(63,83,171,1) 35%,
+   rgba(0,212,255,1) 100%
+    );
   background-size: 400% 400%;
   background-attachment: fixed;
 }
@@ -31,7 +33,7 @@ body {
   position: fixed;
   width: 200%;
   height: 12em;
-  animation: wave 30s -3s linear infinite; /* Increased duration to 20s */
+  animation: wave 30s -3s linear infinite; 
   transform: translate3d(0, 0, 0);
   opacity: 0.8;
   bottom: 0;
@@ -41,24 +43,17 @@ body {
 
 .wave:nth-of-type(2) {
   bottom: -1.25em;
-  animation: wave 46s linear reverse infinite; /* Increased duration to 36s */
+  animation: wave 46s linear reverse infinite; 
   opacity: 0.8;
 }
 
 .wave:nth-of-type(3) {
   bottom: -2.5em;
-  animation: wave 50s -1s reverse infinite; /* Increased duration to 40s */
+  animation: wave 50s -1s reverse infinite; 
   opacity: 0.9;
 }
 
 @keyframes wave {
-  2% {
-      transform: translateX(1);
-  }
-
-  25% {
-      transform: translateX(-25%);
-  }
 
   50% {
       transform: translateX(-50%);
@@ -74,13 +69,7 @@ body {
 }
 
 .btn {
-  background: linear-gradient(
-    92.23deg,
-    #ca81c6 21.43%,
-    #b936ee 50.63%,
-    #0b161b 100%,
-    #406aff 117.04%
-  );
+  background:#E0B0FF;
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
@@ -88,24 +77,20 @@ body {
   position: relative;
 }
 .btn:hover {
-  background: linear-gradient(
-    92.23deg,
-    #ca81c6 21.43%,
-    #b936ee 50.63%,
-    #0b161b 100%,
-    #406aff 117.04%
-  );
+  background:linear-gradient(
+     90deg, rgba(24,0,36,1) 0%,
+   rgba(63,83,171,1) 35%,
+   rgba(0,212,255,1) 100%
+    );
 }
 
 .gradient,
 .active {
-  background: linear-gradient(
-    92.23deg,
-    #ca81c6 21.43%,
-    #b936ee 50.63%,
-    #0b161b 100%,
-    #406aff 117.04%
-  );
+  background:linear-gradient(
+     90deg, rgba(24,0,36,1) 0%,
+   rgba(63,83,171,1) 35%,
+   rgba(0,212,255,1) 100%
+    );
 }
 
 .active {
@@ -121,13 +106,13 @@ body {
     @apply font-primary text-xl leading-8 text-white;
   }
   .h2 {
-    @apply font-primary text-[45px] mb-6 tracking-[10%] uppercase text-purple-900 ;
+    @apply font-primary text-[45px] mb-6 tracking-[10%] uppercase text-blue-200;
   }
   .h3 {
     @apply font-primary font-semibold text-[20px] mb-6 leading-[46px];
   }
   .btn {
-    @apply rounded-full font-primary text-white font-medium;
+    @apply rounded-full font-primary text-black font-medium;
   }
   .btn-sm {
     @apply h-[48px] px-6 text-sm;
@@ -139,8 +124,10 @@ body {
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#743063] to-[#FF56F6] font-bold font-primary hover:from-[#521b4f] hover:to-[#8d22b7];
+    @apply bg-gradient-to-r text-transparent bg-clip-text  text-blue-200 
+      font-bold font-primary;
   }
+  
   .section {
     @apply py-8 m-16  lg:p-20 lg:h-fit flex items-center ;
   }
