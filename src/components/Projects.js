@@ -4,12 +4,12 @@ import { fadeIn } from "../variants";
 import ProjectItem from '../components/ProjectItem';
 import { ProjectData } from '../constant/ProjectData';
 import imagePath1 from '../assets/Img1.jpg';
-import imagePath2 from '../assets/Img2.jpg';
+
 import imagePath3 from '../assets/Img3.jpg';
 import imagePath4 from '../assets/Img4.jpg';
 import imagePath5 from '../assets/Img5.jpg';
 
-const imagePaths = [imagePath1, imagePath2, imagePath3, imagePath4, imagePath5];
+const imagePaths = [imagePath1, imagePath3, imagePath4, imagePath5];
 
 const Projects = () => {
   const projectData = ProjectData;

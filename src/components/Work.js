@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { Link } from "react-scroll";
 import Img1 from "../assets/Img1.jpg";
-import Img2 from '../assets/Img2.jpg';
+import Img3 from '../assets/Img3.jpg';
 import { ProjectData } from "../constant/ProjectData";
 
-const imgPath = [Img1, Img2];
+const imgPath = [Img1, Img3];
 
 
 const projectData = ProjectData.slice(0, 2);
