@@ -6,14 +6,7 @@ export const ProjectData = [
     viewProjectLink: "https://github.com/nikita3006/ParallaxWebpage.git",
    
   },
-  {
-
-    title: "Mail_box",
-    viewProject: "View Project 2",
-    projectLink: "https://mail-box-ecru.vercel.app/home",
-    viewProjectLink: "https://github.com/nikita3006/Mail-Box.git",
-  
-  },
+ 
   {
     title: "DelightDine",
     viewProject: "View Project 3",
