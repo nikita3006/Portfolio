@@ -10,7 +10,7 @@ const Header = () => {
            <h1 className='text-cyan-400'>NIKITA<br/><span className='text-[30px] text-cyan-500 '>Negi</span></h1>
           </a>
           <button className='btn btn-sm text-xl'>
-            <a href="https://drive.google.com/file/d/1ObBdUuKSp38Pr2HTQ-2wsUyD-OrZpDGB/view?usp=sharing"
+            <a href="https://drive.google.com/file/d/1z3HHxzCdtHyU2NDbcmSdznHvbZJgLWoN/view?usp=sharing"
              download=""
              target='_blank'
               role="button">
