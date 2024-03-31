@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Company from './components/Company';
 import Projects from './components/Projects';
 import Certificate from './components/Certificate';
+import Testimonial from './components/Testimonial';
 
 const App = () => {
  
@@ -24,6 +25,7 @@ const App = () => {
       <Contact />
       < Company/>
       <Projects/>
+      <Testimonial/>
      
       {/* <div className='h-[4000px]'></div> */}
     </div>

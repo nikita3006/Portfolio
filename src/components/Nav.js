@@ -3,6 +3,7 @@ import {BiHomeAlt, BiUser} from 'react-icons/bi'
 import {BsClipboardData, BsChatSquareDots } from 'react-icons/bs'
 import { PiCertificate } from "react-icons/pi";
 import { IoBriefcaseOutline } from "react-icons/io5";
+import { VscWorkspaceTrusted } from "react-icons/vsc";
 import { Link } from 'react-scroll'
 
 const Nav = () => {
@@ -51,6 +52,14 @@ const Nav = () => {
             spy={true}
             className='cursor-pointer w-[70px] h-[60px] flex items-center justify-center'>
             <BsClipboardData/>
+          </Link>
+          <Link
+            to='testimonial'
+            activeClass='active'
+            smooth={true}
+            spy={true}
+            className='cursor-pointer w-[70px] h-[60px] flex items-center justify-center'>
+            <VscWorkspaceTrusted />
           </Link>
          
           <Link
