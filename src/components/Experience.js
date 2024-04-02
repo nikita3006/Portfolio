@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { BsArrowUpRight } from "react-icons/bs";
-import {Link} from 'react-scroll'
+import {Link} from 'react-router-dom'
 
 
 
@@ -47,7 +47,7 @@ const Experience = () => {
             </h3>
              
             <Link 
-                to='company'
+                to='/company'
                 activeClass='active'
                 smooth={true}
                 spy={true}
@@ -86,7 +86,7 @@ const Experience = () => {
                     </div>
                     <div className="flex flex-col flex-1 items-end gap-y-4">
                     <Link 
-                      to='company'
+                      to='/company'
                       activeClass='active'
                       smooth={true}
                       spy={true}
@@ -96,7 +96,7 @@ const Experience = () => {
                     </Link>
 
                     <Link 
-                      to='company'
+                      to='/company'
                       activeClass='active'
                       smooth={true}
                       spy={true}

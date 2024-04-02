@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import ProjectItem from '../components/ProjectItem';
+import ProjectItem from './ProjectItem';
 import { ProjectData } from '../constant/ProjectData';
 import imagePath1 from '../assets/Img1.jpg';
 import imagePath3 from '../assets/Img3.jpg';
@@ -12,7 +12,7 @@ import imagePath6 from '../assets/Img6.jpg';
 
 const imagePaths = [imagePath1, imagePath3, imagePath4, imagePath5,imagePath6,imagePath7];
 
-const Projects = () => {
+const ProjectsList = () => {
   const projectData = ProjectData;
   
   return (
@@ -44,4 +44,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsList;

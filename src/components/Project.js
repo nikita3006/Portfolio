@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import Img1 from "../assets/Img1.jpg";
 import Img3 from '../assets/Img3.jpg';
 import { ProjectData } from "../constant/ProjectData";
@@ -11,7 +11,7 @@ const imgPath = [Img1, Img3];
 
 const projectData = ProjectData.slice(0, 2);
 
-const Work = () => {
+const Project = () => {
   return (
     <section className="section" id="work">
       <div className="container mx-auto">
@@ -40,7 +40,7 @@ const Work = () => {
               much more to explore.
             </p>
             <Link
-              to="projects"
+              to="/projects"
               activeClass="active"
               smooth={true}
               spy={true}
@@ -100,4 +100,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Project;

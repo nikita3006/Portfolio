@@ -35,7 +35,7 @@ const data = [
 
 const Company = () => {
   return (
-    <header className='' id='company'>
+    <section id='company'>
       <div className="container mx-auto shadow-2xl rounded-md ">
         <div className='flex justify-center items-center'>
           <motion.h2
@@ -95,7 +95,7 @@ const Company = () => {
           </div>
         ))}
       </div>
-    </header>
+    </section>
   )
 };
 

@@ -4,14 +4,15 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
 import Experience from './components/Experience';
-import Work from './components/Work';
+import Project from './components/Project';
 import Contact from './components/Contact';
 import Company from './components/Company';
-import Projects from './components/Projects';
+import Projects from './components/ProjectsList';
 import Certificate from './components/Certificate';
 import Testimonial from './components/Testimonial';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CertificateList from './components/CertificateList';
+import ProjectsList from './components/ProjectsList';
 
 const App = () => {
  
@@ -26,14 +27,15 @@ const App = () => {
       <About />
       <CertificateList/>   
       <Experience />
-      <Work />
+      <Project />
       <Contact />
-      < Company/>
-      <Projects/>
+    
       <Testimonial/>
       </>} />
       
      <Route path='/certificate' element={<Certificate/>}/>
+     <Route path='/company' element={<Company/>}/>
+     <Route path='/projects' element={<ProjectsList/>}/>
          
         </Routes>
       {/* <div className='h-[4000px]'></div> */}
