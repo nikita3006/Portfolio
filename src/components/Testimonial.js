@@ -68,51 +68,34 @@ const Testimonial = () => {
     ],
   };
   const testimonials = [
-    // {
-    //   id: 1,
-    //   name: 'Joanna Prohaska',
-    //   profile:'car-owner',
-    //   rating: 5,
-    //   message:'“I recently had my car serviced, and I couldn\'t be happier with the hassle-free experience. The team was prompt,courteous, and went above and beyond to address all my concerns. The quality of work was exceptional, and my car feels top-notch.”',
-    // },
-    // {
-    //   id: 2,
-    //   name: 'Sai Krisnan',
-    //   profile:'car-owner',
-    //   rating: 5,
-    //   message: '"The car service I received was timely, efficient and exceeded my expectations. The staff was friendly, attentive and reliable. I appreciated the thorough inspection and the detailed explanation of the repairs needed. My car now drives like a dream, and I\'m grateful for the top-notch service.”',
-    // },
-    // {
-    //   id: 3,
-    //   name: 'Joanna Prohaska',
-    //   profile:'car-owner',
-    //   rating: 5,
-    //   message:'“I recently had my car serviced, and I couldn\'t be happier with the hassle-free experience. The team was prompt,courteous, and went above and beyond to address all my concerns. The quality of work was exceptional, and my car feels top-notch.”',
-    // },
-    // {
-    //   id: 4,
-    //   name: 'Sai Krisnan',
-    //   profile:'car-owner',
-    //   rating: 5,
-    //   message: '"The car service I received was timely, efficient and exceeded my expectations. The staff was friendly, attentive and reliable. I appreciated the thorough inspection and the detailed explanation of the repairs needed. My car now drives like a dream, and I\'m grateful for the top-notch service.”',
-    // },
-    // {
-    //   id: 5,
-    //   name: 'Joanna Prohaska',
-    //   profile:'car-owner',
-    //   rating: 5,
-    //   message:'“I recently had my car serviced, and I couldn\'t be happier with the hassle-free experience. The team was prompt,courteous, and went above and beyond to address all my concerns. The quality of work was exceptional, and my car feels top-notch.”',
-    // },
-    // {
-    //   id: 6,
-    //   name: 'Sai Krisnan',
-    //   profile:'car-owner',
-    //   rating: 5,
-    //   message: '"The car service I received was timely, efficient and exceeded my expectations. The staff was friendly, attentive and reliable. I appreciated the thorough inspection and the detailed explanation of the repairs needed. My car now drives like a dream, and I\'m grateful for the top-notch service.”',
-    // },
     {
-      message: "Under construction"
-    }
+      id: 1,
+      name: 'Joanna Prohaska',
+     
+     
+      message:'urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuereurna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristiqu.'
+    },
+    {
+      id: 2,
+      name: 'Sai Krisnan',
+     
+      
+      message:'urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuereurna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristiqu.'
+    },
+    {
+      id: 3,
+      name: 'Joanna Prohaska',
+     
+      
+      message:'urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuereurna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristiqu.'
+    },
+    {
+      id: 4,
+      name: 'Sai Krisnan',
+     
+     
+      message:'urna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuereurna molestie at elementum eu facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristiqu.'
+    },
    ];
 
    return (

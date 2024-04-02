@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { Link } from 'react-scroll'
 
-const Banner = () => {
+const Home = () => {
   return (
     <section
       className="min-h-[85vh] lg:min-h-[78vh]
@@ -95,4 +95,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Home;
