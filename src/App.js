@@ -35,7 +35,7 @@ const App = () => {
       
      <Route path='/certificate' element={<Certificate/>}/>
      <Route path='/company' element={<Company/>}/>
-     <Route path='/projects' element={<ProjectsList/>}/>
+     <Route path='/projectsList' element={<ProjectsList/>}/>
          
         </Routes>
       {/* <div className='h-[4000px]'></div> */}

@@ -39,13 +39,16 @@ const Project = () => {
               undergone extensive learning, yet I acknowledge there is still
               much more to explore.
             </p>
+            
             <Link
-              to="/projects"
+      
+              to="/projectsList"
               activeClass="active"
               smooth={true}
               spy={true}
               offset={-200}
               className="cursor-pointer"
+              onClick={() => window.scrollTo(0, 0)}
             >
               <button className="btn btn-lg lg:text-2xl text-xl">
                 View all projects

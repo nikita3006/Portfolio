@@ -52,7 +52,10 @@ const Experience = () => {
                 smooth={true}
                 spy={true}
                 offset={-200}
-                className='cursor-pointer'>
+                className='cursor-pointer'
+                onClick={() => window.scrollTo(0, 0)}
+                >
+               
                 <button className="btn btn-lg lg:text-2xl text-xl">See My Experience</button>
               </Link>
           </motion.div>
@@ -88,6 +91,7 @@ const Experience = () => {
                     <Link 
                       to='/company'
                       activeClass='active'
+                     
                       smooth={true}
                       spy={true}
                       className='cursor-pointer btn w-9 h-9 mb-[22px]

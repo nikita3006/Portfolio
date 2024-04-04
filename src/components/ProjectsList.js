@@ -16,8 +16,8 @@ const ProjectsList = () => {
   const projectData = ProjectData;
   
   return (
-    <section className='py-8' id='projects'>
-      <div className="container mx-auto shadow-2xl rounded-md">
+    <section className='py-8' id='projectsList'>
+      <div className="container mx-auto shadow-2xl rounded-md border-4 border-red-500">
         <div className='flex justify-center items-center'>
           <motion.h2
             variants={fadeIn("down", 0.4)}
