@@ -41,7 +41,6 @@ const Project = () => {
             </p>
             
             <Link
-      
               to="/projectsList"
               activeClass="active"
               smooth={true}
