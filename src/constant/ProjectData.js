@@ -41,4 +41,10 @@ export const ProjectData = [
     projectLink: "https://github.com/nikita3006/E-learn",
     viewProjectLink: "https://e-learn-tau.vercel.app/",
   },
+  {
+    title: "Social-Media",
+    viewProject: "View Project 7",
+    projectLink: "https://github.com/nikita3006/socialMedia.git",
+    viewProjectLink: "https://social-media-xi-lyart.vercel.app/",
+  },
 ];

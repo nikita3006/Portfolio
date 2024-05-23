@@ -30,7 +30,7 @@ const App = () => {
       <Project />
       <Contact />
     
-      <Testimonial/>
+      {/* <Testimonial/> */}
       </>} />
       
      <Route path='/certificate' element={<Certificate/>}/>
