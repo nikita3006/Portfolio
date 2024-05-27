@@ -18,14 +18,14 @@ const ProjectsList = () => {
   
   return (
     <section className='py-8' id='projectsList'>
-      <div className="container mx-auto shadow-2xl rounded-md  ">
+      <div className="container mx-auto shadow-2xl rounded-md ">
         <div className='flex justify-center items-center'>
           <motion.h2
             variants={fadeIn("down", 0.4)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="text-[50px] font-bold leading-[0.8] p-2 lg:text-[60px] lg:p-8 text-gradient"
+            className="text-[50px] font-bold leading-[0.8] p-2 lg:text-[60px] lg:p-8 mt-6  text-blue-200 font-secondary"
           >
             Projects
           </motion.h2>

@@ -81,14 +81,14 @@ const Home = () => {
            
           </div>
        
-          <motion.div
-           variants={fadeIn("down", 0.4)}
-           initial="hidden"
-           whileInView={"show"}
-           viewport={{ once: false, amount: 0.8 }}
+          <div
+          //  variants={fadeIn("down", 0.4)}
+          //  initial="hidden"
+          //  whileInView={"show"}
+          //  viewport={{ once: false, amount: 0.8 }}
            className="hidden lg:flex mb-14 mr-5 flex-1 max-w-[320px] lg:-max-w-[482px]">
             <img src={Image} alt="img" />
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

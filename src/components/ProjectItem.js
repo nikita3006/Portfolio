@@ -11,7 +11,7 @@ const ProjectItem = ({ projectData, imageSrc, index }) => {
       whileInView={"show"}
       viewport={{ once: false, amount: 0.7 }}
       className='group relative overflow-hidden border-2 border-white/50 rounded-xl
-       mb-14 w-[280px] h-[150px] lg:w-[900px] lg:h-[400px] '
+       mb-14 w-[280px] h-[150px] lg:w-[900px] lg:h-[400px]'
     >
       <div className='group-hover:bg-black/50 h-full lg:h-full absolute z-40 transition-all w-full duration-300'></div>
       <img
